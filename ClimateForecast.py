@@ -26,6 +26,6 @@ plt.title("Rainfall vs. Temperature")
 plt.show()
 
 # Predict temperature for a new rainfall value
-new_rainfall = np.array([[70]])  # Replace 70 with the desired rainfall value
+new_rainfall = np.array([[70]])  
 predicted_new_temperature = model.predict(new_rainfall)
 print(f"Predicted temperature for {new_rainfall[0][0]} mm of rainfall: {predicted_new_temperature[0]:.2f} °C")
